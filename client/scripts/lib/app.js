@@ -19,6 +19,7 @@ import RoutesConfig from '../routes';
 import ChatsCtrl from '../controllers/chats.controller';
 import CalendarFilter from '../filters/calendar.filter';
 import ChatCtrl from '../controllers/chat.controller';
+import InputDirective from '../directives/input.directive';
 
 // App
 Angular.module(App, [
@@ -30,6 +31,7 @@ Angular.module(App, [
 new Loader(App)
     .load(RoutesConfig)
     .load(CalendarFilter)
+    .load(InputDirective)
     .load(ChatCtrl)
     .load(ChatsCtrl);
 

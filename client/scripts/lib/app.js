@@ -6,6 +6,7 @@ import 'angular-animate';
 import 'angular-meteor';
 import 'angular-sanitize';
 import 'angular-ui-router';
+import 'angular-moment';
 import 'ionic-scripts';
 import Angular from 'angular';
 import Loader from 'angular-ecmascript/module-loader';
@@ -22,6 +23,7 @@ import ChatCtrl from '../controllers/chat.controller';
 // App
 Angular.module(App, [
     'angular-meteor',
+    'angularMoment',
     'ionic'
 ]);
 

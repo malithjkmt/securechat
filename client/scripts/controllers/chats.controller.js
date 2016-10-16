@@ -13,6 +13,7 @@ export default class ChatsCtrl extends Controller {
             data() {
                 return Chats.find();
             }
+
         });
     }
 
